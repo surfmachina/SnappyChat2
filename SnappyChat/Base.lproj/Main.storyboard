@@ -162,16 +162,31 @@
             </objects>
             <point key="canvasLocation" x="2497" y="36"/>
         </scene>
-        <!--View Controller-->
+        <!--Select User View Controller-->
         <scene sceneID="lQB-jS-NCD">
             <objects>
-                <viewController id="zJ8-hn-utf" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="zJ8-hn-utf" customClass="SelectUserViewController" customModule="SnappyChat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MZ5-ah-JmX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cfF-tz-ENW">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BOH-dh-Is0" firstAttribute="bottom" secondItem="cfF-tz-ENW" secondAttribute="bottom" id="X0D-Gy-huS"/>
+                            <constraint firstItem="cfF-tz-ENW" firstAttribute="top" secondItem="BOH-dh-Is0" secondAttribute="top" id="aCm-W1-xqP"/>
+                            <constraint firstItem="cfF-tz-ENW" firstAttribute="leading" secondItem="BOH-dh-Is0" secondAttribute="leading" id="rjm-OY-58o"/>
+                            <constraint firstItem="BOH-dh-Is0" firstAttribute="trailing" secondItem="cfF-tz-ENW" secondAttribute="trailing" id="t6u-qR-V98"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="BOH-dh-Is0"/>
                     </view>
+                    <connections>
+                        <outlet property="tableview" destination="cfF-tz-ENW" id="xEU-Mo-KB0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a0h-lw-K1c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

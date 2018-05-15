@@ -16,6 +16,7 @@
 		E254A49320A9C8C1000792D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E254A49220A9C8C0000792D1 /* GoogleService-Info.plist */; };
 		E296CEB320A9D9330051368F /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E296CEB220A9D9330051368F /* SnapsViewController.swift */; };
 		E296CEB520A9DE530051368F /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E296CEB420A9DE530051368F /* PictureViewController.swift */; };
+		E296CEB720AAC2090051368F /* SelectUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E296CEB620AAC2090051368F /* SelectUserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		E254A49220A9C8C0000792D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E296CEB220A9D9330051368F /* SnapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
 		E296CEB420A9DE530051368F /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
+		E296CEB620AAC2090051368F /* SelectUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectUserViewController.swift; sourceTree = "<group>"; };
 		F1FFC62226A79D257EF40CA7 /* Pods-SnappyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnappyChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnappyChat/Pods-SnappyChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,6 +90,7 @@
 				E254A48220A9C6EB000792D1 /* SignInViewController.swift */,
 				E296CEB220A9D9330051368F /* SnapsViewController.swift */,
 				E254A48420A9C6EB000792D1 /* Main.storyboard */,
+				E296CEB620AAC2090051368F /* SelectUserViewController.swift */,
 				E296CEB420A9DE530051368F /* PictureViewController.swift */,
 				E254A48720A9C6EC000792D1 /* Assets.xcassets */,
 				E254A48920A9C6EC000792D1 /* LaunchScreen.storyboard */,
@@ -218,6 +221,7 @@
 			files = (
 				E254A48320A9C6EB000792D1 /* SignInViewController.swift in Sources */,
 				E296CEB520A9DE530051368F /* PictureViewController.swift in Sources */,
+				E296CEB720AAC2090051368F /* SelectUserViewController.swift in Sources */,
 				E254A48120A9C6EB000792D1 /* AppDelegate.swift in Sources */,
 				E296CEB320A9D9330051368F /* SnapsViewController.swift in Sources */,
 			);
