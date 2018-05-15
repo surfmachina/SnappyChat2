@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		4949CAAE34EEEF63EEEAC293 /* Pods_SnappyChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6A228609363AFF1A8FF366 /* Pods_SnappyChat.framework */; };
 		E254A48120A9C6EB000792D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E254A48020A9C6EB000792D1 /* AppDelegate.swift */; };
-		E254A48320A9C6EB000792D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E254A48220A9C6EB000792D1 /* ViewController.swift */; };
+		E254A48320A9C6EB000792D1 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E254A48220A9C6EB000792D1 /* SignInViewController.swift */; };
 		E254A48620A9C6EB000792D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E254A48420A9C6EB000792D1 /* Main.storyboard */; };
 		E254A48820A9C6EC000792D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E254A48720A9C6EC000792D1 /* Assets.xcassets */; };
 		E254A48B20A9C6EC000792D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E254A48920A9C6EC000792D1 /* LaunchScreen.storyboard */; };
 		E254A49320A9C8C1000792D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E254A49220A9C8C0000792D1 /* GoogleService-Info.plist */; };
+		E296CEB320A9D9330051368F /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E296CEB220A9D9330051368F /* SnapsViewController.swift */; };
+		E296CEB520A9DE530051368F /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E296CEB420A9DE530051368F /* PictureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,12 +23,14 @@
 		6C6A228609363AFF1A8FF366 /* Pods_SnappyChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnappyChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E254A47D20A9C6EB000792D1 /* SnappyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnappyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E254A48020A9C6EB000792D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E254A48220A9C6EB000792D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E254A48220A9C6EB000792D1 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		E254A48520A9C6EB000792D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E254A48720A9C6EC000792D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E254A48A20A9C6EC000792D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E254A48C20A9C6EC000792D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E254A49220A9C8C0000792D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E296CEB220A9D9330051368F /* SnapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
+		E296CEB420A9DE530051368F /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
 		F1FFC62226A79D257EF40CA7 /* Pods-SnappyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnappyChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnappyChat/Pods-SnappyChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,8 +85,10 @@
 			isa = PBXGroup;
 			children = (
 				E254A48020A9C6EB000792D1 /* AppDelegate.swift */,
-				E254A48220A9C6EB000792D1 /* ViewController.swift */,
+				E254A48220A9C6EB000792D1 /* SignInViewController.swift */,
+				E296CEB220A9D9330051368F /* SnapsViewController.swift */,
 				E254A48420A9C6EB000792D1 /* Main.storyboard */,
+				E296CEB420A9DE530051368F /* PictureViewController.swift */,
 				E254A48720A9C6EC000792D1 /* Assets.xcassets */,
 				E254A48920A9C6EC000792D1 /* LaunchScreen.storyboard */,
 				E254A48C20A9C6EC000792D1 /* Info.plist */,
@@ -168,12 +174,16 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SnappyChat/Pods-SnappyChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,8 +216,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E254A48320A9C6EB000792D1 /* ViewController.swift in Sources */,
+				E254A48320A9C6EB000792D1 /* SignInViewController.swift in Sources */,
+				E296CEB520A9DE530051368F /* PictureViewController.swift in Sources */,
 				E254A48120A9C6EB000792D1 /* AppDelegate.swift in Sources */,
+				E296CEB320A9D9330051368F /* SnapsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
